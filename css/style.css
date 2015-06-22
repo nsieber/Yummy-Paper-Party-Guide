@@ -68,13 +68,18 @@ a img {
 }
 
 #logo img {
-    margin: 0 auto;
+    padding: 3px 13px 3px 13px;
+    margin: 10px auto 0 auto;
     max-height: 100px;
     max-width: 300px;
+    border: solid 3px;
+    border-color: #e44b93;
+    border-radius: 5px;
 }
 
 .blackbox {
-    background: #F7D0E2;
+    #background: #F7D0E2;
+    background: #ffffff;
     border-radius: 7px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -138,6 +143,17 @@ a img {
     -webkit-border-radius: 4px;
 }
 
+input {
+    margin: 5px 0px 15px 0px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-color: #a0a0a0;
+    color: #aaaaaa;
+    padding: 5px 0;
+    width: 395px;
+}
+
 .blackbox #optin-button {
     border-radius: 4px;
     -moz-border-radius: 4px;
@@ -154,7 +170,7 @@ a img {
     -webkit-appearance: none;
     line-height: 49px;
     margin: 0 auto;
-    padding: 5px 5px;
+    padding: 5px 5px 20;
     text-decoration: none;
     overflow: hidden;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
@@ -225,6 +241,8 @@ a img {
         font-size: 20px;
         width: 85%;
     }
+    input {
+        width: 85%;
 }
 
 @media only screen and (max-width: 340px) {
