@@ -145,7 +145,7 @@ a img {
     display: block;
     background: #e44b93;
     color: #fcfcfc;
-    font-family: 'Open Sans Condensed', sans-serif;
+    #font-family: 'Open Sans Condensed', sans-serif;
     font-size: 30px;
     font-weight: 600;
     width: 395px;
