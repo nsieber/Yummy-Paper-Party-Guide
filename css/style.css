@@ -68,26 +68,32 @@ a img {
 }
 
 #logo img {
-    padding: 3px 13px 3px 13px;
+    padding: 0px 10px;
     margin: 10px auto 0 auto;
     max-height: 100px;
     max-width: 300px;
-    border: solid 3px;
+    border: solid 2px;
     border-color: #e44b93;
     border-radius: 5px;
+    background-color: #ffffff
 }
 
 .blackbox {
     #background: #F7D0E2;
     background: #ffffff;
     border-radius: 7px;
+    # border: solid 2px;
+    # border-color: #e44b93;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
+}
+
+.blackbox {
     text-align: center;
     padding-bottom: 17px;
     padding-top: 17px;
     margin-bottom: 11px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .blackbox h3,
@@ -96,7 +102,7 @@ a img {
     line-height: 28px;
     color: #666666;
     font-weight: normal;
-    padding: 20px 30px;
+    padding: 20px 0px;
     overflow: hidden;
 }
 
@@ -104,14 +110,14 @@ a img {
     font-size: 28px;
     font-weight: 600;
     line-height: 30px;
-    padding: 12px 50px;
+    padding: 7px 30px;
     overflow: hidden;
 }
 
 .blackbox p {
     font-size: 16px;
     font-weight: 400;
-    padding: 10px 30px;
+    padding: 3px 10px;
     overflow: hidden;
     color: #666666;
 }
@@ -151,7 +157,7 @@ input {
     border-color: #a0a0a0;
     color: #aaaaaa;
     padding: 5px 0;
-    width: 395px;
+    width: 385px;
 }
 
 .blackbox #optin-button {
